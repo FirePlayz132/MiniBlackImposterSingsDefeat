@@ -134,12 +134,12 @@
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/mini_black",
+	"image": "characters/BOYFRIEND",
 	"position": [
 		-40,
 		510
 	],
-	"healthicon": "blackmini",
+	"healthicon": "bf",
 	"flip_x": true,
 	"healthbar_colors": [
 		58,
