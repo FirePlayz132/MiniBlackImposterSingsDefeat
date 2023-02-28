@@ -1,133 +1,78 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
-				-3,
-				-1
+				2,
+				0
 			],
+			"loop": false,
 			"fps": 24,
 			"anim": "idle",
 			"indices": [],
-			"name": "BF idle dance"
+			"name": "ycr sonic idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				12,
-				-6
+				-8,
+				32
 			],
-			"fps": 24,
-			"anim": "singLEFT",
-			"indices": [],
-			"name": "BF NOTE LEFT0"
-		},
-		{
 			"loop": false,
-			"offsets": [
-				-10,
-				-50
-			],
-			"fps": 24,
-			"anim": "singDOWN",
-			"indices": [],
-			"name": "BF NOTE DOWN0"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-29,
-				27
-			],
 			"fps": 24,
 			"anim": "singUP",
 			"indices": [],
-			"name": "BF NOTE UP0"
+			"name": "ycr sonic up"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-38,
-				-7
+				-8,
+				32
 			],
+			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
 			"indices": [],
-			"name": "BF NOTE RIGHT0"
+			"name": "ycr sonic right"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				12,
-				24
+				-8,
+				32
 			],
+			"loop": false,
 			"fps": 24,
-			"anim": "singLEFTmiss",
+			"anim": "singLEFT",
 			"indices": [],
-			"name": "BF NOTE LEFT MISS"
+			"name": "ycr sonic left"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-11,
-				-19
+				-16,
+				32
 			],
-			"fps": 24,
-			"anim": "singDOWNmiss",
-			"indices": [],
-			"name": "BF NOTE DOWN MISS"
-		},
-		{
 			"loop": false,
-			"offsets": [
-				-29,
-				27
-			],
 			"fps": 24,
-			"anim": "singUPmiss",
+			"anim": "singDOWN",
 			"indices": [],
-			"name": "BF NOTE UP MISS"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-30,
-				21
-			],
-			"fps": 24,
-			"anim": "singRIGHTmiss",
-			"indices": [],
-			"name": "BF NOTE RIGHT MISS"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-3,
-				5
-			],
-			"fps": 24,
-			"anim": "hey",
-			"indices": [],
-			"name": "BF HEY"
+			"name": "ycr sonic down"
 		}
 	],
-	"no_antialiasing": false,
+	"no_antialiasing": true,
 	"image": "characters/bfChristmas",
 	"position": [
-		0,
-		350
+		810,
+		370
 	],
-	"healthicon": "bf",
-	"flip_x": true,
+	"healthicon": "senpai",
+	"flip_x": false,
 	"healthbar_colors": [
-		49,
-		176,
-		209
+		64,
+		64,
+		160
 	],
 	"camera_position": [
-		0,
-		0
+		-200,
+		-150
 	],
-	"sing_duration": 4,
-	"scale": 1
+	"sing_duration": 6.1,
+	"scale": 8
 }
