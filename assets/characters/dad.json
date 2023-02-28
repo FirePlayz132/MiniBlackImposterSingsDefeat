@@ -2,122 +2,58 @@
 	"animations": [
 		{
 			"offsets": [
-				-9,
-				10
-			],
-			"loop": false,
-			"anim": "singLEFT",
-			"fps": 24,
-			"name": "Dad Sing Note LEFT",
-			"indices": []
-		},
-		{
-			"offsets": [
 				0,
-				-30
+				1
 			],
-			"loop": false,
-			"anim": "singDOWN",
+			"loop": true,
 			"fps": 24,
-			"name": "Dad Sing Note DOWN",
-			"indices": []
-		},
-		{
-			"offsets": [
-				-6,
-				50
-			],
-			"loop": false,
-			"anim": "singUP",
-			"fps": 24,
-			"name": "Dad Sing Note UP",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				27
-			],
-			"loop": false,
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "Dad Sing Note RIGHT",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": false,
 			"anim": "idle",
-			"fps": 24,
-			"name": "Dad idle dance",
-			"indices": []
+			"indices": [],
+			"name": "Idle"
 		},
 		{
 			"offsets": [
-				0,
-				0
+				579,
+				-57
 			],
-			"loop": true,
+			"loop": false,
 			"fps": 24,
-			"anim": "idle-loop",
-			"indices": [
-				10,
-				11,
-				12,
-				12
-			],
-			"name": "Dad idle dance"
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left"
 		},
 		{
 			"offsets": [
-				-9,
-				10
+				190,
+				-140
 			],
-			"loop": true,
+			"loop": false,
 			"fps": 24,
-			"anim": "singLEFT-loop",
-			"indices": [
-				12,
-				13,
-				14,
-				15
-			],
-			"name": "Dad Sing Note LEFT"
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down"
 		},
 		{
 			"offsets": [
-				0,
-				27
+				103,
+				110
 			],
-			"loop": true,
+			"loop": false,
 			"fps": 24,
-			"anim": "singRIGHT-loop",
-			"indices": [
-				15,
-				16,
-				17,
-				18
-			],
-			"name": "Dad Sing Note RIGHT"
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
 		},
 		{
 			"offsets": [
-				-6,
-				50
+				-176,
+				-32
 			],
-			"loop": true,
+			"loop": false,
 			"fps": 24,
-			"anim": "singUP-loop",
-			"indices": [
-				56,
-				57,
-				58,
-				59
-			],
-			"name": "Dad Sing Note UP"
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right"
 		}
 	],
 	"no_antialiasing": false,
@@ -129,13 +65,13 @@
 	"healthicon": "dad",
 	"flip_x": false,
 	"healthbar_colors": [
-		175,
-		102,
-		206
+		0,
+		0,
+		100
 	],
 	"camera_position": [
-		0,
-		0
+		-250,
+		100
 	],
 	"sing_duration": 6.1,
 	"scale": 1
